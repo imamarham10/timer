@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<main>
+  <div class="main-container"> 
+    <div class="input-container">
+      <div>
+        <label for="hour" class="label-text">Hour:</label><br>
+        <input type="number" id="hour" placeholder="hr" class="input-time" min="00" max="23"> 
+      </div>
+      <div>
+        <label for="minute" class="label-text">Minute:</label><br>
+        <input type="number" id="minute" placeholder="min" class="input-time" min="00" max="59"> 
+      </div>
+      <div>
+        <label for="second" class="label-text">Second:</label><br>
+        <input type="number" id="second" placeholder="sec" class="input-time" min="00" max="59"> 
+      </div>  
+    </div>
+    <div class="button-container">
+      <div>
+        <input type="button" id="start" value="start" class="button">
+      </div>
+      <div>
+        <input type="button" id="reset" value="reset" class="button">
+      </div>
+    </div>
+       
+ 
+  </div>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>

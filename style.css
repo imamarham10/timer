@@ -1,0 +1,24 @@
+.input-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input-time{
+    margin-left: 5px;
+    margin-right:5px;
+}
+.button{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right:5px;
+}
